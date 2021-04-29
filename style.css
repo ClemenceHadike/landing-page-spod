@@ -1,0 +1,850 @@
+
+body{
+  background-color: #E2F5FA;
+  font-family: 'Roboto', sans-serif;
+}
+.navigationbar {
+  background-color: #114b87;
+  overflow: hidden;
+}
+
+.navigationbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigationbar a:hover {
+  background-color: #71c5e8;
+  color: white;
+}
+
+.navigationbar a.active {
+  background-color: #71c5e8;
+  color: white;
+}
+.N°1 {
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 500px; 
+}
+.N°1 h1{
+  margin-left: 100px;
+
+  margin-top: 75px; 
+}
+.N°1 h2{
+  margin-left: 100px;
+
+}
+.N°1 p{
+  margin-left: 100px;
+  margin-right: 800px;
+}
+#calendrier{
+  display: flex;
+  width: 650px;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+
+.star {
+  margin-left: 100px;
+  margin-right: 800px;
+}
+
+.suivi{
+  display: flex;
+  align-items: self-start;
+  margin-bottom: 7px;
+  text-align: -webkit-match-parent;
+  list-style: none;
+}
+
+.Caractéristiques{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+#rachis{
+  width: 70px;
+  margin-left: 100px;
+}
+#calendrierico{
+  width: 70px;
+  margin-left: 100px;
+}
+#faq{
+  width: 70px;
+  margin-left: 100px;
+}
+#medecin{
+  width: 70px;
+  margin-left: 100px;
+}
+.Caractéristiques p {
+  margin-right: 650px;
+  margin-left: 100px;
+}
+.Caractéristiques h1 {
+  margin-left:100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 32px;
+}
+
+#calendrier{
+  vertical-align: middle;
+}
+
+#chatbot{
+  display: flex;
+  width: 300px;
+  position: absolute;
+  top: 800px;
+  right: 200px; 
+}
+
+.rachis p{
+  font-size: 50px;
+  align-items: center;
+  padding-right: 25px;
+  }
+
+.calendrierico {
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  }
+
+.calendrierico img{
+  font-size: 50px;
+  align-items: center;
+  padding-right: 25px
+  }
+
+.calendrierico h3{
+  font-size: 28px;
+  margin-right: 600px;
+  }
+
+.rachis {
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  }
+
+.rachis img{
+  font-size: 50px;
+  align-items: center;
+  padding-right: 25px
+  }
+
+.rachis h3{
+  font-size: 28px;
+  }
+
+.faq {
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  }
+
+.faq img{
+  font-size: 50px;
+  align-items: center;
+  padding-right: 25px
+  }
+
+.faq h3{
+    font-size: 28px;
+  }
+
+.medecin {
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  }
+
+.medecin img{
+  font-size: 50px;
+  align-items: center;
+  padding-right: 25px
+  }
+
+.medecin h3{
+  font-size: 28px;
+  }
+
+#Chiffresclés{
+  background-color: #114b87;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  }
+
+.chiffres{
+  display: flex;
+
+  align-items: center;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: white;
+  }
+
+.utilisateurs{
+  position: relative;
+  left: 30px;
+  padding-right: 700px;
+  padding-left: 30px;
+  margin-left: 30px;
+  }
+
+.utilisateurs h1{
+  font-size:48px;
+  }
+
+.application{
+  position: relative;
+  right: 520px;
+  } 
+.application h1{
+    font-size: 48px;
+  }
+.utilisatrices {
+    position: relative;
+    right: 340px;
+  }
+.utilisatrices h1{
+    font-size: 48px;
+  }
+
+.installations{
+  position: relative;
+  right: 150px;
+  margin-right: 30px;
+  }
+
+.installations h1{
+  font-size: 48px;
+  padding-right: auto;
+  flex-wrap: nowrap;
+  }
+
+.Alltemoignages{
+
+  background-color: white;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  height: 350px;
+  }
+
+#sante{
+  max-width: 170px;
+  max-height: 170px;
+  }
+
+.santé{
+  text-align: center;
+  height: 250px;
+  width: 600px;
+  margin-left: 30px;
+  box-shadow: 7px 5px 5px #C0C0C0, -0.4em 0 .8em #C0C0C0;
+  }
+
+.santé p{
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+
+#women{
+  max-width: 200px;
+  max-height: 200px;
+  }
+
+.women{
+  text-align: center;
+  box-shadow: 7px 5px 5px #C0C0C0, -0.4em 0 .8em #C0C0C0;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 250px;
+  width: 600px;
+  }
+
+.women p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+#digital{
+   max-width: 160px;
+   max-height: 160px;
+  }
+
+.digital{
+    text-align: center;
+    box-shadow: 7px 5px 5px #C0C0C0, -0.4em 0 .8em #C0C0C0;
+    margin-right: 30px;
+    height: 250px;
+    width: 600px;
+  }
+
+.digital p {
+    padding-left: 50px;
+    padding-right: 50px;Ò
+  }
+#moi {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+  }
+.equipe{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+.presidente h1{
+  font-size: 40px;
+  }
+
+.clem h2{
+  font-size: 28px;
+  }
+
+.clem p{
+  font-size: 16px;
+  font-style: italic;
+  padding-left: 200px;
+  padding-right: 200px;
+  }
+
+.footer-basic {
+  padding:40px 0;
+  background-color: #114b87;
+  color:white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+  color: white;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:white;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+  color: white;
+}
+.SPOD{
+  padding: 40px 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #71c5e8;
+  color: white;
+}
+.btn-blue{
+  background-color: #114b87; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-blue:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media (max-width: 2000px){
+
+  .N°1 h1{
+    font-size: 35px;
+    margin-right: 780px;
+  }
+  .N°1 h2{
+    font-size: 28px;
+    margin-right: 670px;
+  }
+  .clem p{
+    font-size: 22px;
+  }
+}
+@media (max-width: 1300px){
+  #calendrier {
+    width: 500px;
+
+    top: 130px;
+  }
+
+  .N°1 h1{
+    font-size: 29px;
+    margin-right: 670px;
+  }
+  .N°1 h2{
+    font-size: 23px;
+    margin-right: 670px;
+  }
+  .Caractéristiques h1 {
+    margin-left: 120px;
+    margin-right: 600px;
+    font-size: 29px;
+  }
+  .rachis h3 {
+    font-size: 23px;
+  }
+  .calendrierico h3 {
+    font-size: 23px;
+  }
+  .faq h3 {
+    font-size: 23px;
+  }
+  .medecin h3 {
+    font-size: 23px;
+  }
+  #chatbot{
+ 
+    width: 260px;
+
+    top: 830px;
+ 
+  }
+  .utilisateurs h1 {
+    font-size: 42px;
+  }
+  .application h1 {
+    font-size: 42px;
+  }
+  .utilisatrices h1 {
+    font-size: 42px;
+  }
+  .installations h1 {
+    font-size: 42px;
+  }
+  .utilisateurs {
+    left: 20px;
+  }
+  .application {
+    right: 540px;
+  }
+  .utilisatrices {
+    right: 380px;
+  }
+  .installations {
+    right: 200px;
+  }
+  .presidente h1{
+    font-size: 34px;
+  }
+  .clem h2{
+    font-size: 26px;
+  }
+  .clem p{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1130px){
+  #calendrier {
+    width: 450px;
+
+    top: 150px;
+  }
+
+  .N°1 h1{
+    font-size: 25px;
+    margin-right: 550px;
+    margin-top: 50px;
+  }
+  .N°1 h2{
+    font-size: 20px;
+    margin-right: 550px;
+  }
+  .star {
+
+    margin-right: 500px;
+  }
+  .N°1 p {
+    font-size: 15px;
+    margin-right: 550px;
+  }
+  .Caractéristiques h1 {
+    margin-left: 120px;
+    margin-right: 300px;
+    font-size: 25px;
+  }
+  .Caractéristiques p {
+    margin-right: 400px;
+
+    font-size: 11px;
+  }
+  .rachis h3 {
+    font-size: 19px;
+    margin-right: 400px;
+  }
+  .calendrierico h3 {
+    font-size: 19px;
+    margin-right: 400px;
+  }
+  .faq h3 {
+    font-size: 19px;
+    margin-right: 400px;
+  }
+  .medecin h3 {
+    font-size: 19px;
+    margin-right: 400px;
+  }
+  #chatbot{
+ 
+    width: 210px;
+    right: 125px; 
+    top: 890px;
+ 
+  }
+  .utilisateurs h1 {
+    font-size: 38px;
+  }
+  .application h1 {
+    font-size: 38px;
+  }
+  .utilisatrices h1 {
+    font-size: 38px;
+  }
+  .installations h1 {
+    font-size: 38px;
+  }
+  .utilisateurs {
+    left: 1px;
+  }
+  .application {
+    right: 600px;
+  }
+  .utilisatrices {
+    right: 500px;
+  }
+  .installations {
+    right: 400px;
+  }
+  .santé p {
+    font-size: 14px;
+  }
+  .women p {
+    font-size: 14px;
+  }
+  .digital p {
+    font-size: 14px;
+  }
+  .presidente h1{
+    font-size: 25px;
+  }
+  .clem h2{
+    font-size: 19px;
+  }
+  .clem p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 920px){
+  #calendrier {
+    width: 400px;
+
+    top: 170px;
+    right: 50px;
+  }
+
+  .N°1 h1{
+    font-size: 25px;
+    margin-right: 400px;
+    margin-top: 50px;
+  }
+  .N°1 h2{
+    font-size: 20px;
+    margin-right: 400px;
+  }
+  .star {
+
+    margin-right: 400px;
+  }
+  .N°1 p {
+    font-size: 15px;
+    margin-right: 400px;
+  }
+  .Caractéristiques h1 {
+    margin-left: 120px;
+    margin-right: 100px;
+    font-size: 25px;
+  }
+  .Caractéristiques p {
+    margin-right: 100px;
+
+    font-size: 15px;
+  }
+  .rachis h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  .calendrierico h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  .faq h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  .medecin h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  #chatbot{
+ 
+    display: none;
+ 
+  }
+  .utilisateurs h1 {
+    font-size: 30px;
+  }
+  .application h1 {
+    font-size: 30px;
+  }
+  .utilisatrices h1 {
+    font-size: 30px;
+  }
+  .installations h1 {
+    font-size: 30px;
+  }
+  .utilisateurs {
+    left: 0px;
+  }
+  .application {
+    right: 650px;
+  }
+  .utilisatrices {
+    right: 622px;
+  }
+  .installations {
+    right: 580px;
+  }
+  .santé p {
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .women p {
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .digital p {
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .presidente h1{
+    font-size: 23px;
+  }
+  .clem h2{
+    font-size: 19px;
+  }
+  .clem p{
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 770px){
+  #calendrier {
+    display : none;
+  }
+
+  .N°1 h1{
+    font-size: 25px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  .N°1 h2{
+    font-size: 20px;
+    margin-right: 100px;
+  }
+  .star {
+
+    margin-right: 100px;
+  }
+  .N°1 p {
+    font-size: 15px;
+    margin-right: 100px;
+  }
+  .N°1 {
+    height: 400px;
+  }
+  .Caractéristiques h1 {
+    margin-left: 120px;
+    margin-right: 50px;
+    font-size: 25px;
+  }
+  .Caractéristiques p {
+    margin-right: 100px;
+
+    font-size: 15px;
+  }
+  .rachis h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  .calendrierico h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  .faq h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  .medecin h3 {
+    font-size: 19px;
+    margin-right: 100px;
+  }
+  #chatbot{
+ 
+    display: none;
+ 
+  }
+  .utilisateurs h1 {
+    font-size: 25px;
+  }
+  .application h1 {
+    font-size: 25px;
+  }
+  .utilisatrices h1 {
+    font-size: 25px;
+  }
+  .installations h1 {
+    font-size: 25px;
+  }
+  .utilisateurs p {
+    font-size: 12px;
+  }
+  .application p {
+    font-size: 12px;
+  }
+  .utilisatrices p {
+    font-size: 12px;
+  }
+  .installations p {
+    font-size: 12px;
+  }
+  .utilisateurs {
+    left: 0px;
+  }
+  .application {
+    right: 650px;
+  }
+  .utilisatrices {
+    right: 622px;
+  }
+  .installations {
+    right: 580px;
+  }
+  .santé p {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .women p {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .digital p {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .women {
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .presidente h1{
+    font-size: 23px;
+  }
+  .clem h2{
+    font-size: 19px;
+  }
+  .clem p{
+    font-size: 11px;
+  }
+}
